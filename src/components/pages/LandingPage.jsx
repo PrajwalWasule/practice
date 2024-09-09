@@ -40,7 +40,7 @@ const LandingPage = () => {
 
             {/* Main Content */}
             <div className="flex row flex-col items-start sm:items-center justify-center mt-24 mx-auto ">
-                <h1 className="text-5xl font-bold text-start sm:text-start md:text-start lg:text-center px-6 text-black mb-4  transform translate-x-[-5%] sm:translate-x-[-5%] ">
+                <h1 className="text-5xl font-bold text-start sm:text-start md:text-start lg:text-center px-6 text-black mb-4   ">
                     Train like a
                     <br className="md:inline sm:inline lg:hidden" />
                     <span className="text-blue-500"> Grand Master,</span>
@@ -106,7 +106,7 @@ const LandingPage = () => {
 
                 {/* Text Section */}
                 <div className="flex flex-col-reverse lg:flex-row items-center justify-between mt-12 text-sm sm:text-base lg:space-x-8 lg:text-left text-center">
-  <div className="w-full sm:p-6 max-w-screen-xl mb-8 lg:mb-0 text-left px-4 lg:px-0  transform translate-x-[1%] sm:translate-x-[1%] ">
+  <div className="w-full sm:p-6 max-w-screen-xl mb-8 lg:mb-0 text-left px-4 lg:px-0  transform translate-x-[-2%] sm:translate-x-[-2%] ">
     <h2 className="text-2xl lg:text-3xl font-bold text-blue-600 mb-4">
       Guidance From Chess Experts
     </h2>
@@ -162,7 +162,7 @@ const LandingPage = () => {
                     </div>
 
                     {/* Text Section */}
-                    <div className="w-full max-w-screen-xl mb-8 lg:mb-0 text-left px-4 lg:px-0  transform translate-x-[1%] sm:translate-x-[1%] ">
+                    <div className="w-full max-w-screen-xl mb-8 lg:mb-0 text-left px-4 lg:px-0  transform translate-x-[-2%] sm:translate-x-[-2%] ">
                         <h2 className="text-3xl font-bold text-blue-600 mb-4">Learn from a pro (in &lt; 3 steps)</h2>
                         <p className="font-poppins text-black  text-sm sm:text-base text-lg lg:text-2xl leading-6 lg:leading-8 mb-6">
                             Unlock your full chess potential with personalized coaching<br />
@@ -192,7 +192,7 @@ const LandingPage = () => {
                     <hr className="border-t border-gray-300 w-full" />
                 </div>
 
-                <div className="flex flex-col-reverse lg:flex-row items-center text-sm text-center  transform translate-x-[1%] sm:translate-x-[1%] ">
+                <div className="flex flex-col-reverse lg:flex-row items-center text-sm text-center  transform translate-x-[-2%] sm:translate-x-[-2%] ">
                     {/* Text Content */}
                     <div className="w-full max-w-screen-xl mb-8 lg:mb-0 text-left px-4 lg:px-0">
                         <h2 className="text-2xl lg:text-3xl font-bold text-blue-600 mb-4">Play, Master, Conquer!</h2>
