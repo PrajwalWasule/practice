@@ -53,46 +53,47 @@ const LandingPage = () => {
 
 
                 {/* Image Row */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full justify-center items-center px-6 md:px-14">
-    <div className="flex flex-col items-center text-center">
-        <img src={image1} alt="Training Image 1" className="h-40 w-full object-contain" />
-        <h1 className="text-xl font-bold text-blue-500 mb-4">Personalized Coaching</h1>
-        <p className="font-poppins text-black text-sm font-normal leading-5">
-            Your dedicated chess mentor to assist you<br />
-            on your path to becoming a stronger<br />
-            chess player
-        </p>
-    </div>
 
-    <div className="flex flex-col items-center text-center">
-        <img src={image2} alt="Training Image 2" className="h-40 w-full object-contain" />
-        <h1 className="text-xl font-bold text-blue-500 mb-4">Exclusive Bootcamps</h1>
-        <p className="font-poppins text-black text-sm font-normal leading-5">
-            Crafted in Collaboration with Top Chess<br />
-            Coaches to Unleash Your<br />
-            Full Potential
-        </p>
-    </div>
+                <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full justify-center items-center px-14
+                transform  sm:translate-x-[-5%] ">
+                    <div className="flex flex-col items-center sm:translate-x-[20%]">
+                        <img src={image1} alt="Training Image 1"
+                            className="h-40 w-full object-contain" />
+                        <h1 className="text-xl font-bold text-blue-500 mb-4 text-center">Personalized Coaching</h1>
+                        <p className="font-poppins text-black text-sm font-normal leading-5 text-center">
+                            Your dedicated chess mentor to assist you<br></br>
+                            on your path to becoming a stronger<br></br>
+                            chess player
+                        </p>
+                    </div>
 
-    <div className="flex flex-col items-center text-center">
-        <img src={image3} alt="Training Image 3" className="h-40 w-full object-contain" />
-        <h1 className="text-xl font-bold text-blue-500 mb-4">Play Chess & Puzzles</h1>
-        <p className="font-poppins text-black text-sm font-normal leading-5">
-            Play with AI, online or with your friends<br />
-            & solve Puzzles to showcase your skills
-        </p>
-    </div>
+                    <div className="flex flex-col items-center text-center transform sm:translate-x-[20%] ">
+                        <img src={image2} alt="Training Image 2"
+                            className="h-40 w-full object-contain" />
+                        <h1 className="text-xl font-bold text-blue-500 mb-4 text-center">Exclusive Bootcamps</h1>
+                        <p className="font-poppins text-black text-sm font-normal leading-5 text-center">
+                            Crafted in Collaboration with Top Chess<br></br> Coaches to Unleash Your<br></br> Full Potential
+                        </p>
+                    </div>
 
-    <div className="flex flex-col items-center text-center">
-        <img src={image4} alt="Training Image 4" className="h-40 w-full object-contain" />
-        <h1 className="text-xl font-bold text-blue-500 mb-4">Exciting Tournaments</h1>
-        <p className="font-poppins text-black text-sm font-normal leading-5">
-            The ultimate arena to showcase your<br />
-            strategies, and strive for the top rank
-        </p>
-    </div>
-</div>
+                    <div className="flex flex-col items-center transform sm:translate-x-[20%]">
+                        <img src={image3} alt="Training Image 3"
+                            className="h-40 w-full object-contain" />
+                        <h1 className="text-xl font-bold text-blue-500 mb-4 text-center">Play Chess & Puzzles</h1>
+                        <p className="font-poppins text-black text-sm font-normal leading-5 text-center">
+                            Play with AI, online or with your friends<br></br> & solve Puzzles to showcase your <br></br>skills
+                        </p>
+                    </div>
 
+                    <div className="flex flex-col items-center transform sm:translate-x-[20%]">
+                        <img src={image4} alt="Training Image 4"
+                            className="h-40 w-full object-contain" />
+                        <h1 className="text-xl font-bold text-blue-500 mb-4 text-center">Exciting Tournaments</h1>
+                        <p className="font-poppins text-black text-sm font-normal leading-5 text-center">
+                            The ultimate arena to showcase your <br></br>strategies, and strive for the<br></br> top rank
+                        </p>
+                    </div>
+                </div>
 
                 {/* Additional Centered Images */}
                 <div className="flex flex-col items-center mt-8 w-full">
