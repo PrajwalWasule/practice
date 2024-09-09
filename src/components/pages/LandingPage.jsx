@@ -53,8 +53,7 @@ const LandingPage = () => {
 
 
                 {/* Image Row */}
-
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full justify-center items-center px-6 md:px-14">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full justify-center items-center px-6 md:px-14">
     <div className="flex flex-col items-center text-center">
         <img src={image1} alt="Training Image 1" className="h-40 w-full object-contain" />
         <h1 className="text-xl font-bold text-blue-500 mb-4">Personalized Coaching</h1>
@@ -93,6 +92,7 @@ const LandingPage = () => {
         </p>
     </div>
 </div>
+
 
                 {/* Additional Centered Images */}
                 <div className="flex flex-col items-center mt-8 w-full">
