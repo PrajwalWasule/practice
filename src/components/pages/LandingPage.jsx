@@ -163,15 +163,12 @@ const LandingPage = () => {
 
                     {/* Text Section */}
                     <div className="w-full max-w-screen-xl mb-8 lg:mb-0 text-left px-4 lg:px-0  transform translate-x-[-2%] sm:translate-x-[-2%] ">
-                        <h2 className="text-3xl font-bold text-blue-600 mb-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-Learn from a pro (in &lt; 3 steps)</h2>
+                        <h2 className="text-3xl font-bold text-blue-600 mb-4">Learn from a pro (in &lt; 3 steps)</h2>
                         <p className="font-poppins text-black  text-sm sm:text-base text-lg lg:text-2xl leading-6 lg:leading-8 mb-6">
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Unlock your full chess potential with personalized coaching<br />
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  from world-class chess masters. Our tailored sessions will<br />
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  take your game to new heights
+                            Unlock your full chess potential with personalized coaching<br />
+                            from world-class chess masters. Our tailored sessions will<br />
+                            take your game to new heights
                         </p><br></br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <button className="bg-blue-500 font-bold text-white py-2 px-6 w-full lg:w-auto shadow-lg hover:bg-blue-600 transition">
                             Start Learning
                         </button>
