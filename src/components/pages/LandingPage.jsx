@@ -55,7 +55,7 @@ const LandingPage = () => {
                 {/* Image Row */}
 
                 <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full justify-center items-center px-14
-                transform  sm:translate-x-[-5%] ">
+               transform translate-x-[-5%] sm:translate-x-[-5%] ">
                     <div className="flex flex-col items-center sm:translate-x-[20%]">
                         <img src={image1} alt="Training Image 1"
                             className="h-40 w-full object-contain" />
